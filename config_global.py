@@ -1,6 +1,7 @@
 import os
 
-base_dir = os.path.split(os.path.abspath(os.path.dirname(__file__)))[:-1][0]
+base_dir = os.path.abspath(os.path.dirname(__file__))
+src_dir = os.path.join(base_dir, 'data')
 data_dir = os.path.join(base_dir, 'data')
 dataset_dir = os.path.join(data_dir, "by_jobs")
 index_dir = os.path.join(data_dir, "index")
@@ -44,6 +45,3 @@ text_processing_url = MAIN_URL + str(TEXT_PROCESSING_PORT) + "/"
 ranking_url = MAIN_URL + str(RANKING_PORT) + "/"
 snippets_url = MAIN_URL + str(SNIPPETS_PORT) + "/"
 res_page_form_url = MAIN_URL + str(RESULT_PAGE_PORT) + "/"
-
-
-
