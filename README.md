@@ -2,7 +2,7 @@
 The main purpose of course is creating model of search engine.
 Appart from this, our team have developed 2 additional features:
 - vacancy classifier by prof area (intersecting classes)
-- vacandy segmentation model for search requirements field in the raw text
+- vacandy segmentation model for searching requirements field in the raw text
 
 ### setup.py scripts
 Loads all necessary data to project from google drive:
